@@ -565,7 +565,7 @@ class CloudStrm(_PluginBase):
                                 },
                                 'content': [
                                     {
-                                        'component': 'VCronField',
+                                        'component': 'VTextField',
                                         'props': {
                                             'model': 'cron',
                                             'label': '生成周期',
@@ -582,7 +582,7 @@ class CloudStrm(_PluginBase):
                                 },
                                 'content': [
                                     {
-                                        'component': 'VCronField',
+                                        'component': 'VTextField',
                                         'props': {
                                             'model': 'rebuild_cron',
                                             'label': '重建索引周期',
